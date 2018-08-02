@@ -1,5 +1,10 @@
 body {
     background-color: #232323;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", "Avenir";
+    /*    font-style: normal;*/
 }
 
 .square {
@@ -17,6 +22,17 @@ body {
 
 h1 {
     color: white;
+    line-height: 1.1;
+    font-weight: normal;
+    text-align: center;
+    background: steelblue;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+#colorDisplay {
+    font-size: 200%;
 }
 
 /*
@@ -34,4 +50,12 @@ span {
 
 .selected {
     background: blue;
+}
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700; 
 }
